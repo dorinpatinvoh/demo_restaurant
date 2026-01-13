@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Savor the authentic flavors of Africa at Savanna Spice. Fresh ingredients, traditional recipes, and a warm atmosphere.">
+    <title>Savanna Spice | Authentic African Cuisine</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Savanna<span class="highlight">Spice</span>.</a>
+            <div class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#location">Location</a>
+                <a href="#contact" class="btn-nav">Book / Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Taste the Soul of <span class="highlight-alt">Africa</span></h1>
+            <p>Experience authentic flavors, warm hospitality, and a culinary journey like no other.</p>
+            <div class="hero-btns">
+                <a href="https://wa.me/1234567890" target="_blank" class="btn btn-primary"><i class="fab fa-whatsapp"></i> Order on WhatsApp</a>
+                <a href="#menu" class="btn btn-outline">View Menu</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container about-grid">
+            <div class="about-image">
+                <div class="img-placeholder">
+                    <i class="fas fa-utensils"></i>
+                    <span>Restaurant Interior</span>
+                </div>
+            </div>
+            <div class="about-text">
+                <h2 class="section-title">Our Story</h2>
+                <p>Welcome to <strong>Savanna Spice</strong>, where tradition meets modern culinary art. Located in the heart of the city, we bring you the rich, diverse flavors of the African continent.</p>
+                <p>Our chefs use strictly fresh, locally sourced ingredients and age-old spices to create dishes that comfort the soul. Whether you are craving spicy Jollof, tender Suya, or a refreshing Hibiscus tea, we have something special for you.</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <i class="fas fa-leaf"></i>
+                        <span>Fresh Ingredients</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-fire"></i>
+                        <span>Authentic Taste</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-heart"></i>
+                        <span>Made with Love</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Our Favorites</h2>
+                <p>Explore our carefully curated menu.</p>
+            </div>
+            
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-category="starters">Starters</button>
+                <button class="tab-btn" data-category="mains">Main Dishes</button>
+                <button class="tab-btn" data-category="drinks">Drinks</button>
+            </div>
+
+            <div class="menu-grid" id="menuGrid">
+                <!-- Starters -->
+                <div class="menu-item" data-category="starters">
+                    <div class="menu-img">
+                        <i class="fas fa-bowl-food"></i>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Spicy Plantains (Kelewele)</h3>
+                        <p>Fried plantains seasoned with ginger, chili, and spices.</p>
+                        <span class="price">$8.00</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <div class="menu-img">
+                         <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Chicken Skewers (Suya)</h3>
+                        <p>Spicy grilled chicken skewers served with onions and tomatoes.</p>
+                        <span class="price">$10.00</span>
+                    </div>
+                </div>
+
+                <!-- Mains -->
+                <div class="menu-item" data-category="mains" style="display:none;">
+                    <div class="menu-img">
+                        <i class="fas fa-bowl-rice"></i>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Jollof Rice Special</h3>
+                        <p>Smoky tomato-based rice served with fried chicken and coleslaw.</p>
+                        <span class="price">$18.00</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="mains" style="display:none;">
+                    <div class="menu-img">
+                         <i class="fas fa-fish"></i>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Grilled Tilapia</h3>
+                        <p>Fresh whole tilapia marinated and grilled to perfection.</p>
+                        <span class="price">$22.00</span>
+                    </div>
+                </div>
+
+                 <!-- Drinks -->
+                 <div class="menu-item" data-category="drinks" style="display:none;">
+                    <div class="menu-img">
+                        <i class="fas fa-glass-water"></i>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Hibiscus Ice Tea (Bissap)</h3>
+                        <p>Refreshing traditional drink made from dried hibiscus flowers.</p>
+                        <span class="price">$5.00</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="drinks" style="display:none;">
+                    <div class="menu-img">
+                         <i class="fas fa-beer"></i>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Ginger Beer</h3>
+                        <p>Homemade spicy and sweet ginger drink.</p>
+                        <span class="price">$6.00</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-2">
+                <a href="#" class="btn btn-outline-dark">Download Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><div class="img-placeholder"><i class="fas fa-image"></i></div></div>
+                <div class="gallery-item"><div class="img-placeholder"><i class="fas fa-image"></i></div></div>
+                <div class="gallery-item"><div class="img-placeholder"><i class="fas fa-image"></i></div></div>
+                <div class="gallery-item"><div class="img-placeholder"><i class="fas fa-image"></i></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Hours -->
+    <section id="location" class="section bg-dark text-white">
+        <div class="container location-grid">
+            <div class="location-info">
+                <h2 class="section-title text-light">Visit Us</h2>
+                <div class="info-group">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>123 Savanna Avenue, Food District<br>Metropolis, AF 45000</p>
+                    </div>
+                </div>
+                <div class="info-group">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h4>Opening Hours</h4>
+                        <p>Mon - Fri: 11:00 AM - 10:00 PM</p>
+                        <p>Sat - Sun: 12:00 PM - 11:00 PM</p>
+                    </div>
+                </div>
+                <div class="info-group">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h4>Contact</h4>
+                        <p>+123 456 789 000</p>
+                        <p>hello@savannaspice.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="map-container">
+                <!-- Google Maps Placeholder -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.7281066703!2d-0.24168153701185573!3d5.560205252873117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9084b2b7a773%3A0xbed14ed8650e2dd3!2sAccra%2C%20Ghana!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>SavannaSpice.</h3>
+                <p>Bringing people together through authentic food.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-cta">
+                <h4>Ready to Order?</h4>
+                <a href="https://wa.me/1234567890" target="_blank" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Savanna Spice Restaurant. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
