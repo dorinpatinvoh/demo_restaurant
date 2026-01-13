@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Savor the authentic flavors of Africa at Savanna Spice. Fresh ingredients, traditional recipes, and a warm atmosphere.">
-    <title>Savanna Spice | Authentic African Cuisine</title>
-    
+    <meta name="description"
+        content="Savourez les saveurs authentiques de l'Afrique chez Savanna Spice. Ingrédients frais, recettes traditionnelles et ambiance chaleureuse.">
+    <title>Savanna Spice | Cuisine Africaine Authentique</title>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- Navigation -->
@@ -24,11 +29,11 @@
         <div class="container nav-container">
             <a href="#" class="logo">Savanna<span class="highlight">Spice</span>.</a>
             <div class="nav-links" id="navLinks">
-                <a href="#about">About</a>
+                <a href="#about">À Propos</a>
                 <a href="#menu">Menu</a>
-                <a href="#gallery">Gallery</a>
-                <a href="#location">Location</a>
-                <a href="#contact" class="btn-nav">Book / Contact</a>
+                <a href="#gallery">Galerie</a>
+                <a href="#location">Lieu</a>
+                <a href="#contact" class="btn-nav">Réserver / Contact</a>
             </div>
             <div class="hamburger" id="hamburger">
                 <i class="fas fa-bars"></i>
@@ -40,11 +45,12 @@
     <header id="home" class="hero">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <h1>Taste the Soul of <span class="highlight-alt">Africa</span></h1>
-            <p>Experience authentic flavors, warm hospitality, and a culinary journey like no other.</p>
+            <h1>Goûtez à l'Âme de l'<span class="highlight-alt">Afrique</span></h1>
+            <p>Une expérience authentique, une hospitalité chaleureuse et un voyage culinaire inoubliable.</p>
             <div class="hero-btns">
-                <a href="https://wa.me/1234567890" target="_blank" class="btn btn-primary"><i class="fab fa-whatsapp"></i> Order on WhatsApp</a>
-                <a href="#menu" class="btn btn-outline">View Menu</a>
+                <a href="https://wa.me/33123456789" target="_blank" class="btn btn-primary"><i
+                        class="fab fa-whatsapp"></i> Commander sur WhatsApp</a>
+                <a href="#menu" class="btn btn-outline">Voir le Menu</a>
             </div>
         </div>
     </header>
@@ -53,27 +59,29 @@
     <section id="about" class="section">
         <div class="container about-grid">
             <div class="about-image">
-                <div class="img-placeholder">
-                    <i class="fas fa-utensils"></i>
-                    <span>Restaurant Interior</span>
-                </div>
+                <img src="images/about.jpg" alt="Intérieur du restaurant"
+                    style="width:100%; height:100%; object-fit:cover; border-radius:8px;">
             </div>
             <div class="about-text">
-                <h2 class="section-title">Our Story</h2>
-                <p>Welcome to <strong>Savanna Spice</strong>, where tradition meets modern culinary art. Located in the heart of the city, we bring you the rich, diverse flavors of the African continent.</p>
-                <p>Our chefs use strictly fresh, locally sourced ingredients and age-old spices to create dishes that comfort the soul. Whether you are craving spicy Jollof, tender Suya, or a refreshing Hibiscus tea, we have something special for you.</p>
+                <h2 class="section-title">Notre Histoire</h2>
+                <p>Bienvenue chez <strong>Savanna Spice</strong>, où la tradition rencontre l'art culinaire moderne.
+                    Situé au cœur de Paris, nous vous apportons les saveurs riches et diverses du continent africain.
+                </p>
+                <p>Nos chefs utilisent des ingrédients frais et des épices ancestrales pour créer des plats qui
+                    réconfortent l'âme. Que vous ayez envie d'un Maffé onctueux, d'un poisson braisé ou d'un Tieboudien
+                    parfumé, nous avons quelque chose de spécial pour vous.</p>
                 <div class="features">
                     <div class="feature-item">
                         <i class="fas fa-leaf"></i>
-                        <span>Fresh Ingredients</span>
+                        <span>Ingrédients Frais</span>
                     </div>
                     <div class="feature-item">
                         <i class="fas fa-fire"></i>
-                        <span>Authentic Taste</span>
+                        <span>Goût Authentique</span>
                     </div>
                     <div class="feature-item">
                         <i class="fas fa-heart"></i>
-                        <span>Made with Love</span>
+                        <span>Fait avec Amour</span>
                     </div>
                 </div>
             </div>
@@ -84,86 +92,97 @@
     <section id="menu" class="section bg-light">
         <div class="container">
             <div class="section-header text-center">
-                <h2 class="section-title">Our Favorites</h2>
-                <p>Explore our carefully curated menu.</p>
+                <h2 class="section-title">Nos Favoris</h2>
+                <p>Explorez notre menu soigneusement élaboré.</p>
             </div>
-            
+
             <div class="menu-tabs">
-                <button class="tab-btn active" data-category="starters">Starters</button>
-                <button class="tab-btn" data-category="mains">Main Dishes</button>
-                <button class="tab-btn" data-category="drinks">Drinks</button>
+                <button class="tab-btn active" data-category="starters">Entrées</button>
+                <button class="tab-btn" data-category="mains">Plats Principaux</button>
+                <button class="tab-btn" data-category="drinks">Desserts & Boissons</button>
             </div>
 
             <div class="menu-grid" id="menuGrid">
                 <!-- Starters -->
                 <div class="menu-item" data-category="starters">
                     <div class="menu-img">
-                        <i class="fas fa-bowl-food"></i>
+                        <i class="fas fa-carrot"></i> <!-- Fallback icon if no img needed here, or us generic -->
                     </div>
                     <div class="menu-info">
-                        <h3>Spicy Plantains (Kelewele)</h3>
-                        <p>Fried plantains seasoned with ginger, chili, and spices.</p>
-                        <span class="price">$8.00</span>
+                        <h3>Pastelles (x5)</h3>
+                        <p>Beignets farcis au poisson, poulet ou viande.</p>
+                        <span class="price">16.00 €</span>
                     </div>
                 </div>
                 <div class="menu-item" data-category="starters">
                     <div class="menu-img">
-                         <i class="fas fa-drumstick-bite"></i>
+                        <i class="fas fa-fish"></i>
                     </div>
                     <div class="menu-info">
-                        <h3>Chicken Skewers (Suya)</h3>
-                        <p>Spicy grilled chicken skewers served with onions and tomatoes.</p>
-                        <span class="price">$10.00</span>
+                        <h3>Accras de Morue</h3>
+                        <p>Beignets de morue croustillants et épicés.</p>
+                        <span class="price">16.00 €</span>
                     </div>
                 </div>
-
                 <!-- Mains -->
+                <div class="menu-item" data-category="mains" style="display:none;">
+                    <div class="menu-img">
+                        <img src="images/dish1.jpg" alt="Tilapia Braisé"
+                            style="width:100%; height:100%; object-fit:cover; border-radius:50%;">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Tilapia Braisé</h3>
+                        <p>600g de poisson frais mariné et grillé, servi avec alloco ou riz.</p>
+                        <span class="price">34.00 €</span>
+                    </div>
+                </div>
                 <div class="menu-item" data-category="mains" style="display:none;">
                     <div class="menu-img">
                         <i class="fas fa-bowl-rice"></i>
                     </div>
                     <div class="menu-info">
-                        <h3>Jollof Rice Special</h3>
-                        <p>Smoky tomato-based rice served with fried chicken and coleslaw.</p>
-                        <span class="price">$18.00</span>
+                        <h3>Maffé Bœuf</h3>
+                        <p>Sauce onctueuse à la pâte d'arachide, servie avec du riz blanc.</p>
+                        <span class="price">28.00 €</span>
                     </div>
                 </div>
                 <div class="menu-item" data-category="mains" style="display:none;">
                     <div class="menu-img">
-                         <i class="fas fa-fish"></i>
+                        <i class="fas fa-drumstick-bite"></i>
                     </div>
                     <div class="menu-info">
-                        <h3>Grilled Tilapia</h3>
-                        <p>Fresh whole tilapia marinated and grilled to perfection.</p>
-                        <span class="price">$22.00</span>
+                        <h3>Poulet Yassa</h3>
+                        <p>Poulet mariné aux oignons, moutarde et citrons verts.</p>
+                        <span class="price">28.00 €</span>
                     </div>
                 </div>
 
-                 <!-- Drinks -->
-                 <div class="menu-item" data-category="drinks" style="display:none;">
+                <!-- Drinks/Desserts -->
+                <div class="menu-item" data-category="drinks" style="display:none;">
                     <div class="menu-img">
-                        <i class="fas fa-glass-water"></i>
+                        <img src="images/dish2.jpg" alt="Gâteau Mangue"
+                            style="width:100%; height:100%; object-fit:cover; border-radius:50%;">
                     </div>
                     <div class="menu-info">
-                        <h3>Hibiscus Ice Tea (Bissap)</h3>
-                        <p>Refreshing traditional drink made from dried hibiscus flowers.</p>
-                        <span class="price">$5.00</span>
+                        <h3>Gâteau Mangue Passion</h3>
+                        <p>Douceur exotique à la mangue et fruit de la passion.</p>
+                        <span class="price">16.00 €</span>
                     </div>
                 </div>
                 <div class="menu-item" data-category="drinks" style="display:none;">
                     <div class="menu-img">
-                         <i class="fas fa-beer"></i>
+                        <i class="fas fa-glass-water"></i>
                     </div>
                     <div class="menu-info">
-                        <h3>Ginger Beer</h3>
-                        <p>Homemade spicy and sweet ginger drink.</p>
-                        <span class="price">$6.00</span>
+                        <h3>Bissap Rouge</h3>
+                        <p>Jus de fleurs d'hibiscus fait maison, rafraîchissant.</p>
+                        <span class="price">5.00 €</span>
                     </div>
                 </div>
             </div>
-            
+
             <div class="text-center mt-2">
-                <a href="#" class="btn btn-outline-dark">Download Full Menu</a>
+                <a href="#" class="btn btn-outline-dark">Télécharger le Menu Complet</a>
             </div>
         </div>
     </section>
@@ -171,12 +190,17 @@
     <!-- Gallery Section -->
     <section id="gallery" class="section">
         <div class="container">
-            <h2 class="section-title text-center">Gallery</h2>
+            <h2 class="section-title text-center">Galerie</h2>
             <div class="gallery-grid">
-                <div class="gallery-item"><div class="img-placeholder"><i class="fas fa-image"></i></div></div>
-                <div class="gallery-item"><div class="img-placeholder"><i class="fas fa-image"></i></div></div>
-                <div class="gallery-item"><div class="img-placeholder"><i class="fas fa-image"></i></div></div>
-                <div class="gallery-item"><div class="img-placeholder"><i class="fas fa-image"></i></div></div>
+                <!-- Using downloaded images multiple times for demo or just placeholders if we only have 4 -->
+                <div class="gallery-item"><img src="images/dish1.jpg" alt="Plat 1"
+                        style="width:100%; height:250px; object-fit:cover; border-radius:8px;"></div>
+                <div class="gallery-item"><img src="images/hero.jpg" alt="Plat 2"
+                        style="width:100%; height:250px; object-fit:cover; border-radius:8px;"></div>
+                <div class="gallery-item"><img src="images/dish2.jpg" alt="Plat 3"
+                        style="width:100%; height:250px; object-fit:cover; border-radius:8px;"></div>
+                <div class="gallery-item"><img src="images/about.jpg" alt="Restaurant"
+                        style="width:100%; height:250px; object-fit:cover; border-radius:8px;"></div>
             </div>
         </div>
     </section>
@@ -185,34 +209,36 @@
     <section id="location" class="section bg-dark text-white">
         <div class="container location-grid">
             <div class="location-info">
-                <h2 class="section-title text-light">Visit Us</h2>
+                <h2 class="section-title text-light">Visitez-nous</h2>
                 <div class="info-group">
                     <i class="fas fa-map-marker-alt"></i>
                     <div>
-                        <h4>Address</h4>
-                        <p>123 Savanna Avenue, Food District<br>Metropolis, AF 45000</p>
+                        <h4>Adresse</h4>
+                        <p>2 rue La Pérouse<br>75016 Paris, France</p>
                     </div>
                 </div>
                 <div class="info-group">
                     <i class="fas fa-clock"></i>
                     <div>
-                        <h4>Opening Hours</h4>
-                        <p>Mon - Fri: 11:00 AM - 10:00 PM</p>
-                        <p>Sat - Sun: 12:00 PM - 11:00 PM</p>
+                        <h4>Horaires d'ouverture</h4>
+                        <p>Lun - Dim: 12h00 - 00h30</p>
+                        <p>Service continu</p>
                     </div>
                 </div>
                 <div class="info-group">
                     <i class="fas fa-phone-alt"></i>
                     <div>
                         <h4>Contact</h4>
-                        <p>+123 456 789 000</p>
-                        <p>hello@savannaspice.com</p>
+                        <p>01 40 70 15 21</p>
+                        <p>contact@savannaspice.com</p>
                     </div>
                 </div>
             </div>
             <div class="map-container">
-                <!-- Google Maps Placeholder -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.7281066703!2d-0.24168153701185573!3d5.560205252873117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9084b2b7a773%3A0xbed14ed8650e2dd3!2sAccra%2C%20Ghana!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <!-- Google Maps Placeholder updated for Paris -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2348574167585!2d2.290742176378455!3d48.87280807133385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fec7049400f%3A0x6280456184517228!2s2%20Rue%20la%20P%C3%A9rouse%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1700000000000!5m2!1sfr!2sfr"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </section>
@@ -222,7 +248,7 @@
         <div class="container footer-content">
             <div class="footer-brand">
                 <h3>SavannaSpice.</h3>
-                <p>Bringing people together through authentic food.</p>
+                <p>Rassembler les gens autour d'une cuisine authentique.</p>
                 <div class="social-links">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
@@ -230,17 +256,18 @@
                 </div>
             </div>
             <div class="footer-cta">
-                <h4>Ready to Order?</h4>
-                <a href="https://wa.me/1234567890" target="_blank" class="btn btn-whatsapp">
-                    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                <h4>Prêt à commander ?</h4>
+                <a href="https://wa.me/33123456789" target="_blank" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> Chat sur WhatsApp
                 </a>
             </div>
         </div>
         <div class="footer-bottom text-center">
-            <p>&copy; 2026 Savanna Spice Restaurant. All Rights Reserved.</p>
+            <p>&copy; 2026 Savanna Spice Restaurant. Tous droits réservés.</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
